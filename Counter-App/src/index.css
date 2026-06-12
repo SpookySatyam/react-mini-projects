@@ -1,0 +1,24 @@
+body{
+  background-image: url('./assets/pic.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: cursive;
+}
+div{
+  text-align: center;
+  margin-top: 150px;
+}
+button{
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  color: red;
+  font-size: 20px bold;
+  background-color: transparent;
+}
+
+p{
+  font-size: x-large;
+}
