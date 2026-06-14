@@ -1,0 +1,64 @@
+body{
+  background-image: url(./assets/pic.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  font-family: cursive;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+h1{
+  text-align: right;
+  margin: 20px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 75%;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+input{
+  min-width: 250px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  padding: 0 15px;
+}
+button{
+  font-size: medium;
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: aquamarine;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+button:hover{
+  transform: scale(1.1);
+}
+button:active{
+  opacity: 0.5;
+}
+.tasks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px bold;
+  border-color: aliceblue;
+  border-radius: 12px;
+  margin: 15px;
+  padding-left:  20px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+}
