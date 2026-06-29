@@ -1,6 +1,5 @@
 import {useEffect, useState} from 'react';
 
-
 function App(){
   const [todos, setTodos]=useState(()=>{
     const saved=localStorage.getItem("hell_todos");
